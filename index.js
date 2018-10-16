@@ -19,5 +19,5 @@ module.exports = {
   parserOptions: {
     sourceType: "module" //类型为module，因为代码使用了使用了ECMAScript模块
   },
-  extends: ["plugin:prettier/recommended"]
+  extends: ["plugin:vue-libs/recommended", "plugin:prettier/recommended"]
 };
