@@ -6,6 +6,7 @@ module.exports = {
   },
   rules: {
     "default-case": 2, //switch语句中有default分支
+    "prettier/prettier":["never",{semi: true}],//分号不报错，由于prettier存在，分号为自动化，解决vue template的报错
     complexity: 2, //所有代码的独立现行路径条数
     "no-undef": 0, //禁用未声明的变量
     "no-unused-vars": 2,
